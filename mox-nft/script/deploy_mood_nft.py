@@ -13,6 +13,7 @@ def deploy_mood():
     
     mood_contract = mood_nft.deploy(happy_svg_uri, sad_svg_uri)
     mood_contract.mint_nft()
+    mood_contract.flip_mood(0)
     print(f"TokenURI: {mood_contract.tokenURI(0)}")
     
         
