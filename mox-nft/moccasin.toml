@@ -11,5 +11,10 @@ prompt_live = false
 chain_id = 31337
 default_account_name = "anvil0"
 
+[networks.buildbear]
+url = "$BUILDBEAR_RPC_URL"
+prompt_live = false
+default_account_name = "buildBear"
+chain_id = 23657
 
 # You can view all configuration options at https://cyfrin.github.io/moccasin/all_moccasin_toml_parameters.html
